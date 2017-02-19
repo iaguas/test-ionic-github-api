@@ -5,6 +5,7 @@ import { MyApp } from './app.component';
 import { UsersPage } from '../pages/users/users';
 import { ReposPage } from '../pages/repos/repos';
 import { OrganizationsPage } from '../pages/organizations/organizations';
+import { UserDetailsPage } from '../pages/user-details/user-details';
 
 import { GithubUsers } from '../providers/github-users';
 
@@ -13,7 +14,8 @@ import { GithubUsers } from '../providers/github-users';
     MyApp,
     UsersPage,
     ReposPage,
-    OrganizationsPage
+    OrganizationsPage,
+    UserDetailsPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -23,7 +25,8 @@ import { GithubUsers } from '../providers/github-users';
     MyApp,
     UsersPage,
     ReposPage,
-    OrganizationsPage
+    OrganizationsPage,
+    UserDetailsPage
   ],
   providers: [GithubUsers]
 })
